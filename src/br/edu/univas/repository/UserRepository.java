@@ -12,4 +12,5 @@ public class UserRepository {
 	public void insert(User user) {
 		//proceed with insert object in database
 	}
+	
 }

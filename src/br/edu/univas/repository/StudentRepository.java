@@ -10,6 +10,6 @@ public class StudentRepository {
 		databaseConfiguration = DatabaseConfiguration.getInstanceDatadase();
 	}
 	public void insert(Student student) {
-	//proceed with insert object in database
+		//proceed with insert object in database
 	}
 }

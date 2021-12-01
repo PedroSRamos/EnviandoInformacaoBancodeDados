@@ -5,15 +5,11 @@ import br.edu.univas.vo.Student;
 import br.edu.univas.vo.User;
 
 public class UserRepository {
-
 	private DatabaseConfiguration databaseConfiguration;
-
 	public UserRepository() {
 		databaseConfiguration = DatabaseConfiguration.getInstanceDatadase();
 	}
-
 	public void insert(User user) {
 		//proceed with insert object in database
 	}
-	
 }

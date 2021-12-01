@@ -11,6 +11,7 @@ public class DatabaseConfiguration {
 	public static DatabaseConfiguration getInstanceDatadase() {
 		if(databaseInstance == null) {
 			databaseInstance = new DatabaseConfiguration();
+			
 			return databaseInstance;
 		} else {
 			return databaseInstance;

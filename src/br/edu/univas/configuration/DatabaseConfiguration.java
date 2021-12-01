@@ -7,7 +7,6 @@ public class DatabaseConfiguration {
 	private static final String DATABASE = "mydatabase";
 	
 	private static DatabaseConfiguration databaseInstance;
-	
 	private DatabaseConfiguration() {}
 
 	public static DatabaseConfiguration getInstanceDatadase() {
@@ -18,7 +17,6 @@ public class DatabaseConfiguration {
 			return databaseInstance;
 		}
 	}
-
 	public String getConfiguration() {
 		return "jdbc:postgresql://" + HOST + ":" + PORT + "/" + DATABASE;
 	}
